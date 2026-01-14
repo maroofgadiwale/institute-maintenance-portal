@@ -1,8 +1,7 @@
 # 🏫 Institute Maintenance Portal
 
-The **Institute Maintenance Portal** is a centralized web-based system designed to streamline the reporting, allocation, and resolution of maintenance issues within an educational institution.
+The **Institute Maintenance Portal** is a centralized web-based system designed to streamline the reporting, allocation, and resolution of maintenance issues within an educational institution by providing a structured and transparent workflow. It replaces inefficient manual processes and fragmented communication channels with a unified digital platform that enables seamless interaction between complainants, administrators, and technicians. Through role-based access, systematic task allocation, and real-time status updates, the system ensures improved accountability, faster issue resolution, and efficient infrastructure management across the institute.
 
-It provides a structured and transparent workflow that improves communication between complainants, administrators, and technicians, ensuring faster and more efficient issue resolution.
 
 ---
 
@@ -59,13 +58,26 @@ Managing maintenance complaints manually or through scattered communication chan
 > *(Update this section as per your implementation)*
 
 - Frontend: HTML, CSS, JavaScript  
-- Backend: Python (Flask/Django) / Node.js  
-- Database: MySQL / PostgreSQL / MongoDB  
+- Backend:  PHP (Server side scripting)
+- Database: MySQL
+- Notification: SMTP 
 
 ---
 
 ## 📷 Preview
+<p align = "center">
+  <img src = "images/img1.jpg" width = "1000px">
+</p>
 
+---
+<p align = "center">
+  <img src = "images/img2.jpg" width = "1000px">
+</p>
+
+---
+<p align = "center">
+  <img src = "images/img3.jpg" width = "1000px">
+</p>
 
 ---
 
