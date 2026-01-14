@@ -1,0 +1,182 @@
+body{
+  background-image:linear-gradient(to right,#fc00ff,#00dbde);
+  /* background-image: linear-gradient(to left,#12c2e9,#c471ed); */
+  /* background-image:linear-gradient(to right,#fc00ff,#12c2e9); */
+}
+
+#introduction{
+  color:white;
+  font-family: "Poppins",sans-serif;
+}
+.introductory{
+  margin-top:3%;
+}
+.innerware{
+  text-align: center;
+}
+.indexImage{
+  margin-left: 2%;
+}
+
+#intro-info{
+  /* margin-left: 4%;*/
+  margin-top: 10%;
+  font-size: 2.7rem;
+  white-space: nowrap;
+}
+
+.firstlec{
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.secondlec{
+  font-size: 1.2rem;
+  white-space: pre-line;
+}
+.slog{
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+.twos{
+  border-radius: 25px;
+  outline: 2px solid white;
+  width: 30%;
+}
+
+.no1s{
+  margin-right: 2%;
+  height: 45px;
+}
+/* Features */
+#features{
+  margin-top: 7%;
+  font-family: "Questiral",sans-serif;
+}
+.feature-row{
+  text-align: center;
+  color: white;
+}
+.encapsulated{
+  margin-top: 2%;
+}
+
+.detail{
+  font-size: 1.1rem;
+}
+.feature-media{
+  color:#FF004D;
+}
+.feature-media:hover{
+  color:#DCF2F1;
+}
+/* Social media section */
+#social-media{
+  color:white;
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Poppins",sans-serif;
+}
+
+.social-med-icons{
+  padding:1% 3%;
+}
+
+/* Do it till this boundary... */
+.navbar{
+  font-size: 1.6rem;
+  font-family: 'Questrial', sans-serif;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navitems{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#departments{
+  margin-top: 3%;
+  color:white;
+  text-align: center;
+  font-family: 'Questrial', sans-serif;
+}
+
+#title
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5rem;
+  color:white;
+  margin-bottom: 4%;
+  margin-top:2%;
+  animation: fade-in-up 2s ease-out;
+  text-align: center;
+}
+
+
+.menus{
+  height:300px;
+  width:300px;
+  border:3px solid white;
+  border-radius: 20%;
+  background-image:linear-gradient(to left,#00dbde,#26a0da);
+  color:white;
+  font-family: 'Questrial', sans-serif;
+  margin: 3rem;
+}
+
+/* Animation */
+@keyframes fade-in-up {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+.slogan{
+  font-size: 2rem;
+  margin-top: 4%;
+  font-weight: normal;
+}
+
+.form-dept{
+  border:2px solid white;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form{
+  color:grey;
+  font-family:"Poppins",sans-serif;
+}
+
+input[type="text"]::placeholder,textarea::placeholder{
+  font-style: italic;
+}
+
+
+.invisible{
+  visibility: hidden;
+}
+
+
+.depts{
+  color:white;
+  text-align: center;
+  font-family: "Questrial",sans-serif;
+}
+
+.deptname{
+  padding-bottom: 2%;
+  margin-top: 2%;
+}
+.table
+{
+  font-size: 1.2rem;
+}

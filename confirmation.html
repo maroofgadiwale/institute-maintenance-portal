@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Task Allocated</title>
+  <!-- Shortcut icon -->
+  <link rel="shortcut icon" type="images/png" href="images/complete.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Questrial&display=swap" rel="stylesheet">
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <style>
+    body {
+      background-color: #c471ed;
+      color: white;
+    }
+
+    .confirm {
+      margin-top: 10%;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      justify-content: center;
+    }
+
+    .response {
+      margin-top: 2%;
+      font-size: 2.5rem;
+    }
+
+    .home {
+      width: 35%;
+      margin-top: 1%;
+      border-radius: 25px;
+      outline: 3px solid white;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      height: 50px;
+    }
+    .completion{
+        animation: fade-in-up 1s ease-out;
+    }
+    .info {
+      margin-top: 1%;
+      font-size: 1.3rem;
+      white-space:pre-line;
+    }
+    @keyframes fade-in-up {
+      0% {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media only screen and (max-width:768px) {
+      .confirm {
+        margin-top: 45%;
+      }
+
+      .response {
+        font-size: 1.8rem;
+        margin-top: 3%;
+      }
+
+      .completion {
+        height: 150px;
+        width: 150px;
+      }
+
+      .info {
+        margin-top: 1%;
+        font-size: 1rem;
+        white-space: normal;
+      }
+
+      .home {
+        text-decoration: none;
+        width: 50%;
+        margin-top: 2%;
+        border-radius: 25px;
+        outline: 3px solid white;
+        color: white;
+        font-size: 1rem;
+        font-weight: bold;
+        height: 55px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container confirm">
+    <img src="images/complete.png" alt="completion" class="completion" height="180px" width="180px">
+    <h1 class="response">Task Allocated</h1>
+    <p class="info">The task has been successfully allocated to the technician regarding
+      the maintenance issue of the complainant.</p>
+    <a href="staff.php">
+      <button type="button" class="btn btn-info home" name="button">BACK TO STAFF PAGE</button>
+    </a>
+  </div>
+</body>
+</html>

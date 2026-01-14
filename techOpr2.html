@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Shortcut icon -->
+  <link rel="shortcut icon" type="images/png" href="images/login.png">
+  <!-- Google Fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Questrial&display=swap" rel="stylesheet">
+  <!-- Bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <title>Removing Record</title>
+  <style>
+    body {
+      font-family: 'Questrial', sans-serif;
+      background-image:linear-gradient(to right,#fc00ff,#00dbde);
+      background-color: #f4f4f4;
+      font-size: 1.1rem;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .middleware{
+      background-image: linear-gradient(to right, #fc00ff, #00dbde);
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 100%;
+      max-width: 400px;
+      border:3px solid white;
+      animation: fade-in-up 1.4s ease-out;
+    }
+
+    @keyframes fade-in-up {
+      0% {
+        opacity: 0;
+        transform: translateY(300px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    #heading{
+      font-size: 2rem;
+      text-align: center;
+      color:white;
+      border-bottom: 1px solid white;
+    }
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color:white;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    .check{
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      width: 100%;
+      display: inline-block;
+      background-image: linear-gradient(to right, #3CD3AD, #00dbde);
+      outline:2px solid white;
+      margin-top:2%;
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    button:hover {
+      color:black;
+    }
+
+    @media only screen and (min-width: 768px) {
+      form {
+        width: 80%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <script>
+    function validate()
+    {
+      with(document.myform)
+      {
+        if(techId.value.length==0)
+        {
+          email.placeholder="Email field is empty";
+          event.preventDefault();
+        }
+        if(techExist.value.length==0)
+        {
+          techExist.placeholder="Password field is empty";
+          event.preventDefault();
+        }
+      }
+    }
+  </script>
+  <form name="myform" action="insertTech.php" method="post" class="middleware">
+    <div class="logos" style="text-align:center;">
+    <img src="images/engineer.png" alt="login" height="80px" width="80px">
+    </div>
+    <h1 id="heading">Removing a Technician</h1>
+    <label for="techId">Techncian ID:</label>
+    <input type="text" name="techId" placeholder="Technician Id" class="form-control">
+    <label for="techdept">Department:</label>
+    <select name="departments" class="form-control">
+      <option value="Computer">Computer</option>
+      <option value="Electic">Electic</option>
+      <option value="Building">Building</option>
+      <option value="Plumbing">Plumbing</option>
+      <option value="Laboratory">Laboratory</option>
+    </select>
+    <br>
+    <button type="submit" class="check btn btn-danger" name="remove" onclick="validate()">Remove</button>
+  </form>
+</body>
+</html>
