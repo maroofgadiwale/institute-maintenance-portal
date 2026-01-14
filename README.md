@@ -69,9 +69,7 @@ Managing maintenance complaints manually or through scattered communication chan
 
 ---
 
-## 🛠️ Tech Stack (Optional)
-> *(Update this section as per your implementation)*
-
+## 🛠️ Tech Stack
 - Frontend: HTML, CSS, JavaScript  
 - Backend:  PHP (Server side scripting)
 - Database: MySQL
