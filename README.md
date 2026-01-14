@@ -9,7 +9,22 @@ The **Institute Maintenance Portal** is a centralized web-based system designed 
 Managing maintenance complaints manually or through scattered communication channels often leads to delays, lack of accountability, and poor tracking. This portal solves these challenges by offering a unified digital platform for complaint management.
 
 ---
+## 📷 Preview
+<p align = "center">
+  <img src = "images/img1.jpg" width = "1000px">
+</p>
 
+---
+<p align = "center">
+  <img src = "images/img2.jpg" width = "1000px">
+</p>
+
+---
+<p align = "center">
+  <img src = "images/img3.jpg" width = "1000px">
+</p>
+
+---
 ## 🚀 Features
 - Centralized maintenance complaint registration  
 - Category-based issue reporting (Electrical, Plumbing, Computer, Laboratory, etc.)  
@@ -61,23 +76,6 @@ Managing maintenance complaints manually or through scattered communication chan
 - Backend:  PHP (Server side scripting)
 - Database: MySQL
 - Notification: SMTP 
-
----
-
-## 📷 Preview
-<p align = "center">
-  <img src = "images/img1.jpg" width = "1000px">
-</p>
-
----
-<p align = "center">
-  <img src = "images/img2.jpg" width = "1000px">
-</p>
-
----
-<p align = "center">
-  <img src = "images/img3.jpg" width = "1000px">
-</p>
 
 ---
 
